@@ -2,11 +2,11 @@ import sys
 import site
 
 # Добавьте путь к библиотеке pydub, если она не находится в стандартных путях поиска
-site.addsitedir(r'E:\PythonProject\m4a-to-mp3\.venv\Lib\site-packages')
+site.addsitedir(r'E:\you-venv\.venv\Lib\site-packages')
 
 # Обновленный .spec файл
 a = Analysis(
-    ['E:/PythonProject/m4a-to-mp3/main.py'],
+    ['E:/you-file.py'],
     pathex=['.'],
     binaries=[
         (os.path.join(r'C:\ffmpeg', 'ffmpeg.exe'), '.'),
